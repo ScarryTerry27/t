@@ -63,8 +63,6 @@ s = [x.name() for i in range(10)]
 with open('text_array', 'w', encoding='utf-8') as file:
     file.write('\n'.join(s))
 
-x = Faker()
-
 s = [x.name() for i in range(10)]
 with open('text_array', 'w', encoding='utf-8') as file:
     file.write('\n'.join(s))
